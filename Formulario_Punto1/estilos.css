@@ -1,0 +1,118 @@
+*{
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: 'The Girl Next Door', cursive;
+    letter-spacing: 2px;
+}
+
+body{
+    background: #503459;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #81638B;
+    border-radius: 10px;
+    margin: 50px 50px;
+    padding: 20px;
+    max-width: 1000px;
+}
+
+.form{
+    min-width: 400px;
+    text-align: center;
+    flex: 1;
+    padding: 30px;
+    order: 50;
+}
+
+.form__input{
+    width: 100%;
+    padding: 7px;
+    margin: 6px 0;
+    border: none;
+    border-bottom: 3px solid #B695C0;
+    background: transparent;
+    color: #F1D7FF;
+}
+
+.form__input::placeholder{
+    color: #be93da;
+}
+
+.form__input:focus{
+    background: linear-gradient(to bottom, transparent, #333); /* Efecto degradado */
+    outline: none;
+    border-bottom: 3px solid #DAC9DF;
+}
+
+.form textarea{
+    min-height: 140px;
+    resize: none;
+}
+
+.form-image{
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    min-width: 360px;
+    max-width: 500px;
+    order: 2;
+}
+
+.form-image div{
+    padding: 10px;
+}
+
+.image-container{
+    margin: auto;
+}
+
+.image-container div{
+    background-color: #E0B0FF ;
+    border-radius: 40%;
+    text-align: center;
+    padding: 20px;
+}
+
+.form-image img{
+    width: 90%;
+}
+
+.form input[type="submit"]{
+    background-color: #503459;
+    font-size: 40px;
+    color: #be93da;
+    border-bottom: none;
+    padding: 12px;
+}
+
+.form input[type="button"]{
+    background-color: #503459;
+    font-size: 40px;
+    color: #be93da;
+    border-bottom: none;
+    padding: 12px;
+}
+
+.form input[type="submit"]:hover{
+    background-color: #DAC9DF;
+}
+
+.form input[type="button"]:hover{
+    background-color: #DAC9DF;
+}
+
+.form input[type="submit"]:focus{
+    background: #B57EDC;
+}
+
+.form input[type="submit"]:active{
+    background: linear-gradient(to bottom, #4B1C71 0% 10%, #B57EDC);
+}
+
+.form input[type="button"]:active{
+    background: linear-gradient(to bottom, #4B1C71 0% 10%, #B57EDC);
+}

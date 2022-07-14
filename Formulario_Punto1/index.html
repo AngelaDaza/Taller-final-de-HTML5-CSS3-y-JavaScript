@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="normalize.css">
+
+        <!--Fuente-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Blaka&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="flex-container">
+            <form class="form">
+                <div class="form__section">
+                    <input type="text" class="form__input text" placeholder="Nombre" required>
+                </div>
+                <div class="form__section">
+                    <input type="text" class="form__input text" placeholder="Asunto" required>
+                </div>
+                <div class="form__section">
+                    <input type="email" class="form__input text" placeholder="@Correo" required>
+                </div>
+                <div class="form__section">
+                    <textarea class="form__input text" placeholder="Cuerpo del Correo" required></textarea>
+                </div>
+                <div class="form__section">
+                    <input id="submit" type="submit" class="form__input" value="Enviar">
+                </div>
+                <div class="form__section">
+                    <input type="button" class="form__input reinciciar" value="Vaciar">
+                </div>
+            </form>
+            <div class="form-image">
+                <div class="image-container">
+                    <div>
+                        <img src="image/correo.gif" alt="correo">
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <script src="codigo.js"></script>
+    </body>
+</html>
